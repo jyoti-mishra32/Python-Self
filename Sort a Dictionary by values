@@ -1,0 +1,10 @@
+student_marks = {
+    "Rahul": 85,
+    "Aman": 92,
+    "Priya": 78,
+    "Neha": 88
+}
+
+sorted_dict = dict(sorted(student_marks.items(), key=lambda item: item[1]))
+
+print("Sorted Dictionary:", sorted_dict)
